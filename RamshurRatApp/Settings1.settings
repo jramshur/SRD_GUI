@@ -1,0 +1,108 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RamshurRatApp" GeneratedClassName="Settings1">
+  <Profiles />
+  <Settings>
+    <Setting Name="CONFIG_PARAM" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Please fill all the configuration parameters.</Value>
+    </Setting>
+    <Setting Name="chnl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Please select the channel to be used.</Value>
+    </Setting>
+    <Setting Name="mode" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Please select the mode of operation to be used.</Value>
+    </Setting>
+    <Setting Name="T1T4T3_dependancy" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">T1, T3, T4, and T8 should be in the relation ((T1 * 3600) / T4) &gt; (T3 * T8).</Value>
+    </Setting>
+    <Setting Name="T8T5T6T7dependency" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Addition of the parameters T5,T6,T7 should be less than the value of the paramater T8.</Value>
+    </Setting>
+    <Setting Name="T3T9T10dependency" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">The values T8, T9 and T10 should be in the realtionT3 &gt; T10 &gt;T9 .</Value>
+    </Setting>
+    <Setting Name="samplingrate" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Please enter the sampling rate.</Value>
+    </Setting>
+    <Setting Name="adcresolution" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Please enter the ADC resolution.</Value>
+    </Setting>
+    <Setting Name="success" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Configurations successfully uploaded on the device.</Value>
+    </Setting>
+    <Setting Name="param_range" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">The value of T1 is out of the specified range. Please take the cursor to the particular field to see the specified range.</Value>
+    </Setting>
+    <Setting Name="param_rangeT2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">The value of T2 is out of the specified range. Please take the cursor to the particular field to see the specified range.</Value>
+    </Setting>
+    <Setting Name="param_rangeT3" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">The value of T3 is out of the specified range. Please take the cursor to the particular field to see the specified range.</Value>
+    </Setting>
+    <Setting Name="param_rangeT4" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">The value of T4 is out of the specified range. Please take the cursor to the particular field to see the specified range.</Value>
+    </Setting>
+    <Setting Name="param_rangeT5" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">The value of T5 is out of the specified range. Please take the cursor to the particular field to see the specified range.</Value>
+    </Setting>
+    <Setting Name="param_rangeT6" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">The value of T6 is out of the specified range. Please take the cursor to the particular field to see the specified range.</Value>
+    </Setting>
+    <Setting Name="param_rangeT7" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">The value of T7 is out of the specified range. Please take the cursor to the particular field to see the specified range.</Value>
+    </Setting>
+    <Setting Name="param_rangeT8" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">The value of T8 is out of the specified range. Please take the cursor to the particular field to see the specified range.</Value>
+    </Setting>
+    <Setting Name="param_rangeT9" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">The value of T9 is out of the specified range. Please take the cursor to the particular field to see the specified range.</Value>
+    </Setting>
+    <Setting Name="param_rangeT10" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">The value of T10 is out of the specified range. Please take the cursor to the particular field to see the specified range.</Value>
+    </Setting>
+    <Setting Name="HHU_CONNECTED" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Device connected</Value>
+    </Setting>
+    <Setting Name="HHU_DisCONNECTED" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Device not connected</Value>
+    </Setting>
+    <Setting Name="Config_FAIL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Unable to configure parameters on the device.</Value>
+    </Setting>
+    <Setting Name="DISCOVER_PARA_SUCCESS" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Configuration parameters successfully fetched.</Value>
+    </Setting>
+    <Setting Name="DISCOVER_PARA_FAIL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Failed to fetch the configuration parameters.</Value>
+    </Setting>
+    <Setting Name="CONNECTION" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Device  connected</Value>
+    </Setting>
+    <Setting Name="GUIADANCE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="URL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="RESET_CONFIRM" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Do you want to reset the timing configuration values?</Value>
+    </Setting>
+    <Setting Name="First_File" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">This is the first file in the collection.</Value>
+    </Setting>
+    <Setting Name="CONNECTION1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Please check the application - device connectivity and try again  getting  the configurations.</Value>
+    </Setting>
+    <Setting Name="CONNECTION2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Cannot find the device for establishing the connection.</Value>
+    </Setting>
+    <Setting Name="xrange_empty" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Please enter valid display range for X-axis.</Value>
+    </Setting>
+    <Setting Name="xrange_less_error" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Minimum display range is 100, please enter display range greater than 100 and less than 1000.</Value>
+    </Setting>
+    <Setting Name="xrange_number_only" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Display range should be decimal.</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
