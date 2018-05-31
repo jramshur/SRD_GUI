@@ -24,7 +24,7 @@ The simultaneous stimulation-and-recording device (SRD) is a Bluetooth wireless 
 
 ## Wiki
 
-[https://github.com/jramshur/SRD_GUI/wiki][https://github.com/jramshur/SRD_GUI/wiki]
+[https://github.com/jramshur/SRD_GUI/wiki](https://github.com/jramshur/SRD_GUI/wiki)
 
 ## Contact Info
 
